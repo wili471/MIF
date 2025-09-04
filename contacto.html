@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mecatrónica Ingeniería y Fabricación MIF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="logomif.png" alt="Logo Mecatrónica Ingeniería y Fabricación MIF" class="logo-img">
+            <span class="logo-text">Mecatrónica Ingeniería y Fabricación MIF</span>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Empresa</a>
+                    <div class="dropdown-content">
+                        <a href="about-us.html">Acerca de nosotros</a>
+                        <a href="history.html">Historia de la empresa</a>
+                        <a href="sustainability.html">Sostenibilidad</a>
+                        <a href="directors.html">Directivos</a>
+                        <a href="leadership.html">Liderazgo</a>
+                        <a href="careers.html">Oportunidades laborales</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                       <a href="imags/diseno-cad.html">Diseño CAD</a>
+                        <a href="imags/manufactura.html">Manufactura</a>
+                        <a href="imags/instalaciones.html">Instalaciones</a>
+                        <a href="imags/metrologia.html">Metrología</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Proyectos</a>
+                    <div class="dropdown-content">
+                        <a href="bombardier.html">Bombardier</a>
+                        <a href="dana.html">Dana</a>
+                        <a href="hylsa.html">Hylsa</a>
+                        <a href="alstom.html">Alstom</a>
+                        <a href="cale.html">Cale</a>
+                        <a href="atlax.html">Atlax</a>
+                        <a href="simec.html">Simec</a>
+                        <a href="ternium.html">Ternium</a>
+                        <a href="tamsa.html">Tamsa</a>
+                    </div>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section" id="contacto">
+        <h2>Contáctanos</h2>
+        <p class="contact-subtitle">¡Estaremos encantados de atenderte!</p>
+
+        <div class="contact-content-wrapper">
+            <div class="contact-form-container">
+                <h3>Consultas Generales</h3>
+                
+                <form class="contact-form" action="https://formspree.io/f/xovnpjja" method="POST">
+                    <div class="form-group">
+                        <select id="related_to" name="Asunto" required>
+                            <option value="">Asunto *</option>
+                            <option value="Ventas">Ventas</option>
+                            <option value="Soporte">Soporte</option>
+                            <option value="Consulta General">Consulta General</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="first_name" name="Nombre" placeholder="Nombre *" required>
+                        <input type="text" id="last_name" name="Apellido" placeholder="Apellido *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="Correo" placeholder="Correo Electrónico *" required>
+                        <input type="text" id="company" name="Empresa" placeholder="Empresa *" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="country" name="País">
+                            <option value="">País *</option>
+                            <option value="Mexico">México</option>
+                            <option value="USA">Estados Unidos</option>
+                            <option value="Canada">Canadá</option>
+                        </select>
+                        <select id="state" name="Estado">
+                            <option value="">Estado *</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <input type="tel" id="phone" name="Teléfono" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="message" name="Mensaje" rows="5" placeholder="Mensaje *"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+
+            </div>
+
+            <div class="contact-info-container">
+                <h3>Mecatrónica Ingeniería y Fabricación MIF</h3>
+                <p>Calle de la Industria #123</p>
+                <p>Parque Industrial, Ciudad</p>
+                <br>
+                <p>Tel: (55) 1234-5678</p>
+                <p>Correo: info@mif.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+    <h2>Ubicación</h2>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.0751046102531!2d-98.22354257756693!3d19.445521511714137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d026ccf29b333f%3A0x8b043061e1808949!2sMECATRONICA%20INGENIEROS%20ASOCIADOS%2C%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1756933424313!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Mecatrónica Ingeniería y Fabricación MIF. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script2.js"></script>
+
+</body>
+</html>
